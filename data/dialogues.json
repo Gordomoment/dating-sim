@@ -1,0 +1,163 @@
+{
+  "char_001": {
+    "root_node_id": "emma_greeting",
+    "nodes": [
+      {
+        "id": "emma_greeting",
+        "type": "text",
+        "character": "Emma",
+        "content": "Hey there! I haven't seen you around in a while. How have you been?",
+        "next_node_id": "emma_choice_1",
+        "relationship_change": 0
+      },
+      {
+        "id": "emma_choice_1",
+        "type": "choice",
+        "character": "Player",
+        "content": "What do you say?",
+        "choices": [
+          {
+            "id": "emma_choice_good",
+            "text": "I've been great! I was actually hoping to run into you.",
+            "next_node_id": "emma_response_good",
+            "relationship_change": 5
+          },
+          {
+            "id": "emma_choice_okay",
+            "text": "Been okay, just busy with work.",
+            "next_node_id": "emma_response_okay",
+            "relationship_change": 0
+          },
+          {
+            "id": "emma_choice_bad",
+            "text": "Not really interested in chatting right now.",
+            "next_node_id": "emma_response_bad",
+            "relationship_change": -5
+          }
+        ]
+      },
+      {
+        "id": "emma_response_good",
+        "type": "text",
+        "character": "Emma",
+        "content": "Aw, that's so sweet! I really enjoy spending time with you too. Maybe we could grab coffee sometime?",
+        "next_node_id": null,
+        "relationship_change": 0
+      },
+      {
+        "id": "emma_response_okay",
+        "type": "text",
+        "character": "Emma",
+        "content": "I totally get that. Work can be really demanding. Well, feel free to reach out if you want to hang out!",
+        "next_node_id": null,
+        "relationship_change": 0
+      },
+      {
+        "id": "emma_response_bad",
+        "type": "text",
+        "character": "Emma",
+        "content": "Oh... I see. Well, maybe another time then. Take care!",
+        "next_node_id": null,
+        "relationship_change": 0
+      }
+    ]
+  },
+  "char_002": {
+    "root_node_id": "sophia_greeting",
+    "nodes": [
+      {
+        "id": "sophia_greeting",
+        "type": "text",
+        "character": "Sophia",
+        "content": "Hello! I've been reading the most fascinating book lately. Have you read anything interesting?",
+        "next_node_id": "sophia_choice_1",
+        "relationship_change": 0
+      },
+      {
+        "id": "sophia_choice_1",
+        "type": "choice",
+        "character": "Player",
+        "content": "How do you respond?",
+        "choices": [
+          {
+            "id": "sophia_choice_book",
+            "text": "I'd love to hear about it! I'm always looking for good recommendations.",
+            "next_node_id": "sophia_response_book",
+            "relationship_change": 5
+          },
+          {
+            "id": "sophia_choice_neutral",
+            "text": "I haven't had much time for reading lately.",
+            "next_node_id": "sophia_response_neutral",
+            "relationship_change": 0
+          }
+        ]
+      },
+      {
+        "id": "sophia_response_book",
+        "type": "text",
+        "character": "Sophia",
+        "content": "Wonderful! I think you'd really enjoy it. Maybe we could discuss it over tea sometime?",
+        "next_node_id": null,
+        "relationship_change": 0
+      },
+      {
+        "id": "sophia_response_neutral",
+        "type": "text",
+        "character": "Sophia",
+        "content": "That's understandable. Life gets busy. Well, the offer stands if you ever have time!",
+        "next_node_id": null,
+        "relationship_change": 0
+      }
+    ]
+  },
+  "char_003": {
+    "root_node_id": "lily_greeting",
+    "nodes": [
+      {
+        "id": "lily_greeting",
+        "type": "text",
+        "character": "Lily",
+        "content": "Hey! I'm about to go for a hike. Want to come along? It'll be so much fun!",
+        "next_node_id": "lily_choice_1",
+        "relationship_change": 0
+      },
+      {
+        "id": "lily_choice_1",
+        "type": "choice",
+        "character": "Player",
+        "content": "What do you say?",
+        "choices": [
+          {
+            "id": "lily_choice_yes",
+            "text": "I'd love to! Let's go!",
+            "next_node_id": "lily_response_yes",
+            "relationship_change": 8
+          },
+          {
+            "id": "lily_choice_maybe",
+            "text": "Maybe another time.",
+            "next_node_id": "lily_response_maybe",
+            "relationship_change": 0
+          }
+        ]
+      },
+      {
+        "id": "lily_response_yes",
+        "type": "text",
+        "character": "Lily",
+        "content": "Yes! This is going to be amazing! Let's make it a regular thing!",
+        "next_node_id": null,
+        "relationship_change": 0
+      },
+      {
+        "id": "lily_response_maybe",
+        "type": "text",
+        "character": "Lily",
+        "content": "No worries! Just let me know when you're up for an adventure!",
+        "next_node_id": null,
+        "relationship_change": 0
+      }
+    ]
+  }
+}

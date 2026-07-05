@@ -1,0 +1,36 @@
+{
+  "scenes": [
+    {
+      "id": "scene_cafe",
+      "name": "Cozy Cafe",
+      "background_path": "assets/backgrounds/cafe.png",
+      "description": "A warm and inviting cafe with soft lighting and comfortable seating.",
+      "time_of_day": "day",
+      "music": "assets/music/cafe_ambient.mp3"
+    },
+    {
+      "id": "scene_park",
+      "name": "Beautiful Park",
+      "background_path": "assets/backgrounds/park.png",
+      "description": "A lush green park with trees, flowers, and a peaceful atmosphere.",
+      "time_of_day": "day",
+      "music": "assets/music/park_ambient.mp3"
+    },
+    {
+      "id": "scene_library",
+      "name": "Quiet Library",
+      "background_path": "assets/backgrounds/library.png",
+      "description": "A peaceful library filled with books and the scent of old pages.",
+      "time_of_day": "day",
+      "music": "assets/music/library_ambient.mp3"
+    },
+    {
+      "id": "scene_trail",
+      "name": "Mountain Trail",
+      "background_path": "assets/backgrounds/trail.png",
+      "description": "A scenic hiking trail with beautiful views and fresh air.",
+      "time_of_day": "day",
+      "music": "assets/music/trail_ambient.mp3"
+    }
+  ]
+}

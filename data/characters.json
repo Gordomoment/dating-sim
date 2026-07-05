@@ -1,0 +1,46 @@
+{
+  "characters": [
+    {
+      "id": "char_001",
+      "name": "Emma",
+      "age": 22,
+      "description": "A friendly and outgoing individual with a passion for art and music.",
+      "personality_traits": {
+        "kindness": 8,
+        "humor": 7,
+        "intelligence": 7,
+        "creativity": 9,
+        "adventurousness": 8
+      },
+      "appearance_path": "assets/characters/emma.png"
+    },
+    {
+      "id": "char_002",
+      "name": "Sophia",
+      "age": 23,
+      "description": "An ambitious and driven person who loves reading and philosophy.",
+      "personality_traits": {
+        "kindness": 7,
+        "humor": 6,
+        "intelligence": 9,
+        "creativity": 7,
+        "adventurousness": 6
+      },
+      "appearance_path": "assets/characters/sophia.png"
+    },
+    {
+      "id": "char_003",
+      "name": "Lily",
+      "age": 21,
+      "description": "A cheerful and energetic person who enjoys sports and outdoor activities.",
+      "personality_traits": {
+        "kindness": 8,
+        "humor": 8,
+        "intelligence": 6,
+        "creativity": 5,
+        "adventurousness": 9
+      },
+      "appearance_path": "assets/characters/lily.png"
+    }
+  ]
+}
